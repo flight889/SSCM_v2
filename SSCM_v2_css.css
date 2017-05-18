@@ -79,10 +79,8 @@ hr {
 }
 
 
-
-
 #tab1, #tab2, #tab3, #tab4 {
-	padding-bottom: 220px;
+	padding-bottom: 250px; 
 }
 #tab1, #tab3, #tab4 {
 	padding-top: 40px;
@@ -90,6 +88,7 @@ hr {
 #tab2 {
 	padding-top: 20px;
 }
+
 
 .tab1_showing img {
 	width: 100%;
@@ -133,12 +132,13 @@ hr {
 }
 .steps a {
 	padding: 5px 6px;
-	border: solid 2px steelBlue;
+	border: solid 1px white;
 	border-radius: 4px;
 	font-weight: bold;
 	/*color: LightGoldenRodYellow;*/
 	text-decoration: none;
 	background-color: #F9DF46;
+	box-shadow: 2px 2px #7ba7cc;
 }
 
 
@@ -167,6 +167,7 @@ hr {
 #message {
 	margin-top: 50px;
 	border: 5px double #F9DF46;
+	border-radius: 4px;
 	padding: 30px 30px 20px;
 }
 #message a {
@@ -209,7 +210,7 @@ a.list-group-item:hover {
 .thumbnailanchor {
 	display: block;
 	position: relative;
-	top: -70px;
+	top: -75px;
 	visibility: hidden;
 }
 #tab4 .thumbnail {
@@ -225,12 +226,35 @@ a.list-group-item:hover {
 
 
 footer {
-	padding: 40px 0px;
+	padding: 30px 0px;
 	position: absolute;
 	bottom: 0px;
 	width: 100%; /*It's very important*/
-	color: white;
+	color: steelBlue;
 	background-color: steelBlue;
+}
+footer a {
+	margin: 12px 4px;
+	border: 1px solid #fff;
+    border-radius: 50px;
+	display: inline-block;    
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover, footer a:focus {
+	color: steelBlue;
+	background-color: white;
+	text-decoration: none;
+} 
+.popover {
+	border-color: steelBlue;
+}
+footer p {
+	color: white;	
 }
 
 

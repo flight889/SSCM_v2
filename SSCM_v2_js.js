@@ -9,11 +9,12 @@ $(document).ready(function(){
 
 
 	
-$('nav a:lt(6)').click(function(){
+$('nav a:lt(5)').click(function(){
 	if ( $(document).width() < 768 ) {
 		$('#navbar-collapse-1').toggleClass('in').attr('aria-expanded','false');
 	}
 });
+
 
 
 setInterval(gotoTop, 100);
