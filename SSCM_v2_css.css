@@ -15,6 +15,9 @@
 	.navbar-nav {
     	margin: 17.5px 0px 7.5px;
 	}
+	#message {
+		margin: 0px 15px;
+	}
 	#tab4 .center-block {
 		padding: 0px 50px;
 		width: 100%;
